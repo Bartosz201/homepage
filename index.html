@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartek - początkujący programista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header>
+        <h1 class="header">Bartek - początkujący programista</h1>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__list"><a class="navigation__link" href="#o-mnie">Kilka słów o mnie</a></li>
+            <li class="navigation__list"><a class="navigation__link" href="#ulubione-gry">Ulubione gry</a></li>
+        </ul>
+    </nav>
+    <button class="button js-button">Wybierz <span class="js-themeName">ciemny</span> motyw</button>
+    <main class="content">
+        <section id="o-mnie">
+            <h2>Kilka słów o mnie</h2>
+            <img class="content__image" src="https://i.postimg.cc/rmVbDTz2/IMG-20221106-155207.jpg" alt="Zdjęcie Bartka">
+            <p>Jestem Bartek mam 21 lat. Urodziłem się na Śląsku i mieszkam tam do dziś. Obecnie pracuje w zawodzie jako
+                elektryk konkretnie zajmuje się serwisowaniem i montażem maszyn przemysłowych. W wolnym czasie oglądam
+                filmy i seriale, gram w gry czasami przeczytam jakąś książkę i oczywiście spędzam czas z przyjaciółmi,
+                kiedyś też rysowałem i ćwiczyłem na siłowni, ale ostatnio mam bardzo mało czasu. Wcześnie próbowałe
+                moich sił w programowaniu w języku C++, ale niestety po około roku odpuściłem i zatrzymałem się na
+                poziomie amatorskim. W tym momencie moim celem jest nauczyć się programować, a w przyszłości zdobyć
+                pracę jako frontend developer.</p>
+        </section>
+        <section id="ulubione-gry">
+            <h2>Ulubione gry</h2>
+            <div class="tableConteiner">
+                <table class="tableConteiner__table">
+                    <caption class="tableConteiner__caption">Ulubione gry</caption>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="col">Tytuł</th>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="col">Wydawca</th>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="col">Premiera</th>
+                    </tr>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="row">Skyrim</th>
+                        <td class="tableConteiner__tableCell">Bethesda</td>
+                        <td class="tableConteiner__tableCell">2011</td>
+                    </tr>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="row">Wiedźmin 3</th>
+                        <td class="tableConteiner__tableCell">CD Projekt Red</td>
+                        <td class="tableConteiner__tableCell">2015</td>
+                    </tr>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="row">RimWorld</th>
+                        <td class="tableConteiner__tableCell">Ludeon Studios</td>
+                        <td class="tableConteiner__tableCell">2013</td>
+                    </tr>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="row">War Thunder</th>
+                        <td class="tableConteiner__tableCell">Gaijin Entertainment</td>
+                        <td class="tableConteiner__tableCell">2012</td>
+                    </tr>
+                    <tr>
+                        <th class="tableConteiner__tableCell--Header tableConteiner__tableCell" scope="row">God of War</th>
+                        <td class="tableConteiner__tableCell">Santa Monica Studio</td>
+                        <td class="tableConteiner__tableCell">2018</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Wykonał: Bartosz Barć</footer>
+</body>
+
+</html>
