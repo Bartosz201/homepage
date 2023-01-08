@@ -1,0 +1,9 @@
+.content {
+    max-width: 1200px;
+    margin: 12px auto;
+}
+
+.content__image {
+    width: 300px;
+    border: #217dfe groove 5px;
+}
